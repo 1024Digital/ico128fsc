@@ -17,7 +17,7 @@ p {
 }
 
 
-/* NAV Section */
+/*--------------------- NAV Section---------------- */
 
 nav {
     background-color: #6F6F51;
@@ -49,22 +49,20 @@ a {
 }
 
 
-/* heading */
+/* --------------------------------heading----------------------------- */
 
-#heading {
-    width: 100%;
-    height: 200px;
-    margin-top: .5%;
-}
-
-.bg-image {
-    width: 100%;
-    height: 200px;
-}
-
+#heading,
+.bg-image,
 .bg-image img {
     width: 100%;
     height: 200px;
+}
+
+#heading {
+    margin-top: .5%;
+}
+
+.bg-image img {
     position: relative;
     filter: grayscale(80%);
     -webkit-filter: grayscale(80%);
@@ -83,7 +81,7 @@ a {
 }
 
 
-/* Footer Section */
+/* ------------------Footer Section------------------------ */
 
 footer {
     background-color: #6F6F51;
@@ -107,14 +105,14 @@ footer {
 }
 
 
-/* Section */
+/* --------------------Section------------------------------------- */
 
 section {
     background-color: #49491E;
 }
 
 
-/* Drill Notes */
+/* ---------------------Drill Notes--------------------------------- */
 
 #drill-notes h2,
 p {
@@ -126,6 +124,8 @@ p {
     gap: 2px;
     padding: 3px 5px 15px;
     flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .container li {
@@ -139,7 +139,7 @@ p {
 }
 
 
-/* Drill Schedule */
+/* -------------------------Drill Schedule------------------------------- */
 
 .drill table {
     text-align: center;
@@ -163,10 +163,11 @@ th {
 
 .drill {
     padding: 1rem 0 2rem;
+    overflow-x: auto;
 }
 
 
-/* full time staff */
+/* ----------------------------full time staff-------------------------------------- */
 
 .card-top img {
     width: 20%;
@@ -196,7 +197,7 @@ th {
 }
 
 
-/* -----------------Links-------------------- */
+/* --------------------------Links----------------------------------- */
 
 .links-container {
     text-align: center;
@@ -214,12 +215,16 @@ th {
 }
 
 
-/* ----------Font-----------------  */
+/* ----------------------------Fonts-----------------------------  */
 
 
 /* 
-    font-family: 'Allerta Stencil', sans-serif;
+
+
+font-family: 'Allerta Stencil', sans-serif;
 font-family: 'Black Ops One', cursive;
 font-family: 'Michroma', sans-serif;
 font-family: 'Special Elite', cursive;
-     */
+
+
+*/
