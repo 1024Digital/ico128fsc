@@ -179,10 +179,10 @@ th {
 
 .staff {
     display: flex;
-    gap: 5%;
+    gap: 2%;
     text-align: center;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .card-bottom li {
