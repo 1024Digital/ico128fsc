@@ -10,30 +10,44 @@ h1 {
 li,
 td,
 th,
+tr,
 h3,
 h2,
 p {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
+p,
+h2 {
+    padding: 20px 0 0 15px;
+}
+
+
+/*--------------------- Alert---------------- */
+
+.reminder-heading {
+    font-size: xx-large;
+}
+
+.reminder-p {
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
 
 /*--------------------- NAV Section---------------- */
 
-nav {
+.navbar {
     background-color: #6F6F51;
-    display: flex;
-    padding-bottom: 2px;
 }
 
-a {
-    padding: 0 3rem;
+.links ul {
     color: #DEDE83;
     font-family: 'Special Elite', cursive;
 }
 
-.navbar {
-    margin: auto;
-    padding-right: 90px;
+.links li {
+    padding: 0 3rem;
 }
 
 .logo {
@@ -109,34 +123,11 @@ footer {
 
 section {
     background-color: #49491E;
+    margin-top: 1rem;
 }
 
 
 /* ---------------------Drill Notes--------------------------------- */
-
-#drill-notes h2,
-p {
-    padding-left: 15px;
-}
-
-.container {
-    display: flex;
-    gap: 2px;
-    padding: 3px 5px 15px;
-    flex-basis: auto;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.container li {
-    list-style-type: circle;
-    padding: 2px 0;
-}
-
-.container h3 {
-    margin-left: 40px;
-    text-decoration: underline;
-}
 
 
 /* -------------------------CONVOY------------------------------- */
@@ -155,25 +146,29 @@ p {
     padding-top: 1rem;
 }
 
-.convoyroster th td {
-    padding: 3rem;
-}
-
 .advon {
     margin-left: 34%;
     text-align: center;
 }
 
 
-/* -------------------------Drill Schedule------------------------------- */
+/* -------------------------Tables------------------------------- */
 
 .drill table {
     text-align: center;
-    margin-left: 23%;
+    margin-left: 15%;
 }
 
-.drill td {
-    padding: 1rem 3rem;
+.schedule td {
+    padding: 10px;
+}
+
+.schedule th {
+    padding: 1rem;
+}
+
+.drill td tr {
+    padding: 50px;
 }
 
 .drill th {
@@ -182,9 +177,8 @@ p {
 
 .drill table,
 td,
-tr,
-th {
-    border: 1px solid #DEDE83;
+tr {
+    border: 5px solid #DEDE83;
 }
 
 .drill {
@@ -195,8 +189,8 @@ th {
 
 /* ----------------------------full time staff-------------------------------------- */
 
-.card-top img {
-    width: 20%;
+.card-top-img {
+    width: 10%;
     border-radius: 180px;
     -webkit-border-radius: 180px;
     -moz-border-radius: 180px;
@@ -212,14 +206,20 @@ th {
     padding: 2rem 0;
 }
 
-.card-bottom li {
+.bottom-of-card li {
     list-style-type: none;
-    margin-right: 30px;
+    margin: 0 30px 0 20px;
     line-height: 2rem;
 }
 
-.card {
-    width: 30%;
+.card-placment {
+    text-align: center;
+    padding-top: 3rem;
+    margin: 0 auto;
+}
+
+.phone {
+    font-size: small;
 }
 
 

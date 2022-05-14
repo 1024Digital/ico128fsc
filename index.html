@@ -2,13 +2,21 @@
 <html>
 
 <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <meta charset="utf-8">
     <title>I Co 128 FSC</title>
-    <link rel="stylesheet" href="css/styles.css">
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Michroma&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="Favicon\apple-touch-icon.png">
@@ -16,17 +24,40 @@
     <link rel="icon" type="image/png" sizes="16x16" href="Favicon\favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img\favicon.ico">
     <link rel="manifest" href="img\site.webmanifest">
+
+
 </head>
 
 <body>
-    <nav>
-        <img class="logo" src="img\128fsclogo.png" alt="I CO 128 FSC Logo">
-        <div class="navbar">
-            <a class="links" href="#drill-schedule">Drill Schedule</a>
-            <a class="links" href="#fulltime-staff">Full Time Staff</a>
-            <a class="links" href="#links">Links</a>
-            <a class="links" href="#barracks">Barracks Assignments</a>
-            <a class="links" href="#convoy">Convoy Roster</a>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img\128fsclogo.png" alt="I CO 128 FSC Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav links">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#drill-schedule">Drill Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fulltime-staff">Full Time Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#links">Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#barracks">Barracks Assignments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#convoy">Convoy Roster</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -36,256 +67,190 @@
             <img src="img\wolf-eyes3.png" alt="">
         </div>
     </section>
+    <!-- ------------------------Editable Sections--------------------------------   -->
+    <section>
+        <div class="container drill-notes">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <h1>Drill Notes</h1>
+                </div>
+                <div class="col-xxl-12">
+                    <h2>First Formation:0700</h2>
 
-    <section id="drill-notes">
-        <h1>Drill Notes</h1>
-        <h2>Formation Time:0700</h2>
-        <p class="notes">The following is the information for this upcoming drill: April 22-24 2022</p>
-        <div class="container">
-            <div class="admin">
-                <h3>Admin Notes</h3>
-                <ul>
-                    <li>Convoy to FTIG SP 0830</li>
-                    <li>Covid Vax 1200 Hrs @ FTIG Friday Selected personnel </li>
-                    <li>URES Survey 1500 Hrs Friday Everyone </li>
-                    <li>IWQ Table I-II in EST on Saturday</li>
-                    <li>PHA Makeup 1400 Hrs Saturday selected personnel</li>
-                    <li>Dental examination Saturday selected personnel </li>
-                    <li>Sharp Training Saturday Everyone</li>
-                    <li>Height & Weight Everyone Time TBD</li>
-                </ul>
-            </div>
-            <div class="supply">
-                <h3>Supply</h3>
-                <ul>
-                    <li>CMDP Inspection 0900 Saturday</li>
-                    <li>Fit test pro mask</li>
-                </ul>
+                </div>
+                <div class="col-xxl-12">
+                    <p class="notes">The following is information for this upcoming drill: May 20-22 2022</p>
+                </div>
 
             </div>
-            <div class="maintenance">
-                <h3>Maintenance</h3>
-                <ul>
-                    <li>Maintenance out of UTES Friday & Saturday</li>
-                    <li>Small Maintenance team staying at Carbondale to complete Service Axle, Mumford , Garvin.</li>
-                    <li>Dispatches Friday morning</li>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Admin Notes</h3>
+                    <ul>
+                        <li>Convoy to FTIG SP 0830</li>
+                        <li>ACFT Diag this weekend </li>
+                        <li>IWQ Table I-II in EST on Saturday Make ups</li>
+                        <li>Boalsburg Event Sunday</li>
+                        <li>Area 13 PDF layout <a href="128 I Co FSC Testing\area 13 layout.pdf" target="_blank">Area 13 Layout</a></li>
 
-                </ul>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Supply</h3>
+                    <ul>
+                        <li>Weapon Quarterly's </li>
+                        <li>Pro Mask.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Maintenance</h3>
+                    <ul>
+                        <li>Maintenance bay Bldg 13-65 </li>
+                        <li>Small Maintenance team staying at Carbondale to complete Service.</li>
+                        <li>Services to complete at FTIG; 3 HMMWV, 2 MTV's, Weapons & Electronics .</li>
+
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Distro</h3>
+                        <ul>
+                            <li>Ammo draw</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Mess</h3>
+                        <ul>
+                            <li>Advon Selected personnel</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-lg-4">
+                        <h3>From The LDRSHIP</h3>
+                        <ul>
+                            <li>Maintenance out of UTES Friday & Saturday</li>
+                            <li>Small Maintenance team staying at Carbondale to complete Service Axle, Mumford , Garvin.</li>
+                            <li>Dispatches Friday morning</li>
+
+                        </ul>
+                    </div> -->
+
+                </div>
 
             </div>
-            <div class="distro">
-                <h3>Distro</h3>
-                <ul>
-                    <li>No ammo draws</li>
-                    <li>Possibly assisting maintenance</li>
-                </ul>
-            </div>
-            <!-- <div class="mess">
-                <h3>Mess</h3>
-                <ul>
-                    <li>Advon Selected personnel</li>
-                </ul>
-            </div> -->
+
         </div>
-
-
     </section>
 
+    <!-- ------------------------Editable Sections--------------------------------   -->
     <section id="barracks">
-        <h1>Barracks Assignments April</h1>
-        <div class="drill">
-            <table>
-                <tr>
-                    <th>BLDG</th>
-                    <th>FUNCTION</th>
-                    <th>NOTES</th>
-                </tr>
-                <tr>
-                    <td>13-148</td>
-                    <td>BN HQ</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>13-53W</td>
-                    <td>BN Aide Station</td>
-                    <td> If needed</td>
+        <div class="container-fluid">
+            <h1>Barracks Assignments April</h1>
+            <div class="drill">
+                <table class="table-responsive table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">BLDG</th>
+                            <th scope="col">FUNCTION</th>
+                            <th scope="col">NOTES</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>13-148</td>
+                        <td>BN HQ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13-154</td>
+                        <td>BN Aide Station</td>
+                        <td> If needed</td>
 
-                </tr>
-                <tr>
-                    <td>13-26</td>
-                    <td>Dining Facility</td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>13-22/13-25</td>
+                        <td>Dining Facility</td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>13-27</td>
-                    <td>Dining Facility</td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>13-24</td>
+                        <td>Class Room</td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>13-15</td>
-                    <td>Female Barracks</td>
-                    <td>Officers in Ldrs rooms</td>
+                    </tr>
+                    <tr>
+                        <td>13-60</td>
+                        <td>Female Barracks</td>
+                        <td>Officers in Ldrs rooms</td>
 
-                </tr>
-                <tr>
-                    <td>13-32W</td>
-                    <td>I Co Admin/Supply</td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>13-112</td>
+                        <td>I Co Admin/Supply</td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>13-115</td>
-                    <td>I Co Male Barracks</td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>13-115</td>
+                        <td>I Co Male Barracks</td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>13-114</td>
-                    <td>SR NCO / Officer Barracks</td>
-                    <td>E-7 to 0-3 Only </td>
+                    </tr>
+                    <tr>
+                        <td>13-114</td>
+                        <td>SR NCO / Officer Barracks</td>
+                        <td>E-7 to 0-3 Only </td>
 
-                </tr>
-                <tr>
-                    <td>UTES BAY</td>
-                    <td>BN MAINT (FSC)</td>
-                    <td>Saturday 0800 - 1630</td>
-                </tr>
+                    </tr>
+                    <tr>
+                        <td>13-65</td>
+                        <td>Maintenance Bays</td>
+                        <td></td>
+                    </tr>
 
-                <tr>
-                    <td>13-70</td>
-                    <td>Class Room</td>
-                    <td></td>
-                </tr>
+                    <!-- <tr>
+                        <td>13-70</td>
+                        <td>Class Room</td>
+                        <td></td>
+                    </tr> -->
 
-            </table>
+                </table>
+            </div>
         </div>
 
     </section>
+    <!-- ------------------------Editable Sections--------------------------------   -->
+    <!-- <section id="convoy">
+        <div class="container-fluid">
+            <h1>Convoy Roster for April</h1>
+            <div class="drill">
+                <table class="schedule table-bordered">
+                    <tr>
+                        <th>Admin</th>
+                        <th>Model</th>
+                        <th>Driver</th>
+                        <th>Passengers</th>
+                        <th>Notes</th>
 
-    <section id="convoy">
-        <h1>Convoy Roster for April</h1>
-        <div class="convoyroster">
-            <table class="advon">
-                <caption>ADVON</caption>
-                <tr>
-                    <th>ADMIN </th>
-                    <th>MODEL </th>
-                    <th>DRIVER </th>
-                    <th>PASSENGERS </th>
-                    <th>ACCESSORIES </th>
-                    <th>NOTES </th>
-                </tr>
-                <tr>
-                    <td>I04</td>
-                    <td>LMTV</td>
-                    <td>Utter</td>
-                    <td></td>
-                    <td></td>
-                    <td>Supply</td>
-                </tr>
-                <tr>
-                    <td>I27</td>
-                    <td>MTV</td>
-                    <td>Ward</td>
-                    <td>Schafer</td>
-                    <td></td>
-                    <td>Mess</td>
-                </tr>
-            </table>
-            <table class="mainbody">
-                <caption>MAIN BODY</caption>
-                <tr>
-                    <th>ADMIN </th>
-                    <th>MODEL </th>
-                    <th>DRIVER </th>
-                    <th>PASSENGERS </th>
-                    <th>ACCESSORIES </th>
-                    <th>NOTES </th>
-                </tr>
-                <tr>
-                    <td>I36</td>
-                    <td>HMMWV</td>
-                    <td>Ernst</td>
-                    <td>Ford, Kellam, Rodriguez</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I56</td>
-                    <td>HMMWV</td>
-                    <td>Kanterman</td>
-                    <td>Tilla, Kille, Henderson</td>
-                    <td>IT06 M1101 Trlr</td>
-                    <td>Baggage</td>
-                </tr>
-                <tr>
-                    <td>I63</td>
-                    <td>LMTV</td>
-                    <td>Meaden</td>
-                    <td>Bonk, Synder</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I45</td>
-                    <td>LHS</td>
-                    <td>Allen</td>
-                    <td>Deallume</td>
-                    <td>Parts Container</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I46</td>
-                    <td>LHS</td>
-                    <td>Golder</td>
-                    <td>Flynn</td>
-                    <td>FRS</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I07</td>
-                    <td>HMMWV</td>
-                    <td>Garica</td>
-                    <td>Billings</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I72</td>
-                    <td>Contact</td>
-                    <td>Hoopingarner</td>
-                    <td>Baruelo</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I73</td>
-                    <td>Contact</td>
-                    <td>Page</td>
-                    <td>Tolentino</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>I68</td>
-                    <td>HMMT WKR</td>
-                    <td>Bloxham</td>
-                    <td>Gralinski</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+                    </tr>
+                    <tr>
+                        <td>I36</td>
+                        <td>HMMWV</td>
+                        <td>Ernst</td>
+                        <td>Ford, Kellam, Rodriguez</td>
+                        <td>Baggage</td>
+                    </tr>
 
-        </div>
 
-    </section>
+                </table>
+            </div>
+    </section> -->
 
+    <!-- ------------------------Editable Sections--------------------------------   -->
     <section id="drill-schedule">
         <h1>Drill Schedule FY 2022</h1>
         <div class="drill">
-            <table>
+            <table class="schedule table-bordered">
+
                 <tr>
                     <th>DATE</th>
                     <th>LOCATION</th>
@@ -339,39 +304,43 @@
         </div>
 
     </section>
-
+    <!-- ------------------------DO NOT Edit below this Sections--------------------------------   -->
     <section id="fulltime-staff">
-        <h1>AGR Staff information</h1>
-        <div class="staff">
-            <div class="card">
-                <div class="card-top">
-                    <img src="img\businessman-310819.png">
+        <div class="container-fluid">
+            <h1>AGR Staff information</h1>
+            <div class="row card-row">
+                <div class="col-lg-4 card-placment">
+                    <div class="card bg-transparent">
+                        <img src="img\businessman-310819.png" class="card-img-top card-top-img">
+                        <div class="card-body bottom-of-card">
+                            <h3>SFC Keith Esbensen</h3>
+                            <ul>
+                                <li>Readiness NCO</li>
+                                <li class="phone">Office:570-282-2300</li>
+                                <li>keith.j.esbensen.mil@army.mil</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-bottom">
-                    <h3>SFC Keith Esbensen</h3>
-                    <ul>
-                        <li>Readiness NCO</li>
-                        <li>Office:570-282-2300</li>
-                        <li>keith.j.esbensen.mil@army.mil</li>
-                    </ul>
+                <div class="col-lg-4 card-placment">
+                    <div class="card bg-transparent">
+                        <img src="img\businessman-310819.png" class="card-img-top card-top-img">
+                        <div class="card-body bottom-of-card">
+                            <h3>SSG Christopher Utter</h3>
+                            <ul>
+                                <li>Supply NCO</li>
+                                <li class="phone">Office:570-282-2300</li>
+                                <li class="phone">Mobile:610-248-8186</li>
+                                <li>christopher.j.utter2.mil@army.mil</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-top">
-                    <img src="img\businessman-310819.png">
-                </div>
-                <div class="card-bottom">
-                    <h3>SSG Christopher Utter</h3>
-                    <ul>
-                        <li>Supply NCO</li>
-                        <li>Office:570-282-2300</li>
-                        <li>Mobile:610-248-8186</li>
-                        <li>christopher.j.utter2.mil@army.mil</li>
-                    </ul>
-                </div>
+
             </div>
 
         </div>
+
 
 
     </section>
@@ -402,6 +371,7 @@
         </div>
 
     </footer>
+    <script src="index.js"></script>
 
 </body>
 
