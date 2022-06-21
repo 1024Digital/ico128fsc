@@ -1,0 +1,82 @@
+HTML
+
+<nav>
+        <img class="logo" src="img\128fsclogo.png" alt="I CO 128 FSC Logo">
+        <div class="navbar">
+            <a class="links" href="#drill-schedule">Drill Schedule</a>
+            <a class="links" href="#fulltime-staff">Full Time Staff</a>
+            <a class="links" href="#links">Links</a>
+            <a class="links" href="#barracks">Barracks Assignments</a>
+            <a class="links" href="#convoy">Convoy Roster</a>
+        </div>
+    </nav>
+
+
+
+CSS
+
+nav {
+    background-color: #6F6F51;
+    display: flex;
+    padding-bottom: 2px;
+}
+
+a {
+    padding: 0 3rem;
+    color: #DEDE83;
+    font-family: 'Special Elite', cursive;
+}
+
+.navbar {
+    margin: auto;
+    padding-right: 90px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 180px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    -ms-border-radius: 180px;
+    -o-border-radius: 180px;
+    border: 1px solid black;
+    margin: 2px 0 2px 1rem;
+}
+
+
+<div class="staff">
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="img\businessman-310819.png">
+                        </div>
+                        <div class="card-bottom">
+                            <h3>SFC Keith Esbensen</h3>
+                            <ul>
+                                <li>Readiness NCO</li>
+                                <li>Office:570-282-2300</li>
+                                <li>keith.j.esbensen.mil@army.mil</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="img\businessman-310819.png">
+                        </div>
+                        <div class="card-bottom">
+                            <h3>SSG Christopher Utter</h3>
+                            <ul>
+                                <li>Supply NCO</li>
+                                <li>Office:570-282-2300</li>
+                                <li>Mobile:610-248-8186</li>
+                                <li>christopher.j.utter2.mil@army.mil</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
