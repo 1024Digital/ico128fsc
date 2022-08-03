@@ -1,1 +1,1 @@
-alert("Reminder: Drill is 23-26 June");
+alert("Reminder: Drill is 6-7 August");
