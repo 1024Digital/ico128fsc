@@ -75,24 +75,23 @@
                     <h1>Drill Notes</h1>
                 </div>
                 <div class="col-xxl-12">
-                    <h2>First Formation: 0700</h2>
+                    <h2 id="reporttime"></h2>
 
                 </div>
                 <div class="col-xxl-12">
-                    <p class="notes">The following is information for this upcoming drill: 15-16 October 2022</p>
-                    <p class="nextDrill">Drill next month is on: November 4-6 2022</p>
+                    <p class="notes" id="currentdrill"></p>
+                    <p class="nextDrill" id="nextdrill"></p>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <h3>Admin Notes</h3>
-                    <ul>
-                        <li>Sharp briefing </li>
-                        <li>HT & WT </li>
-                        <li>NCOer's </li>
-                        <li>SGLI brief Sunday</li>
-                        <li>Visits from MAJ Mitchell, CPT Brown, SGM Frengal </li>
+                    <h3 id="sectionOne">Admin Notes</h3>
+                    <a href="128 I Co FSC GitHub\ICO_DRILL_LETTER_NOV2022.pdf">DRILL LETTER</a>
+                    <ul id="sectionOneContent">
+                        
+                        
+                        
                         
 
 
@@ -101,17 +100,16 @@
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Supply</h3>
-                    <ul>
-                        <li>Admin Task</li>
+                    <h3 id="sectionTwo">Supply</h3>
+                    <ul id="sectionTwoContent">
+                        
 
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Maintenance</h3>
-                    <ul>
-                        <li>Finish any outstanding service from September's Maintenance Raid</li>
-                        <li>Tool box & section inventories</li>
+                    <h3 id="sectionThree">Maintenance</h3>
+                    <ul id="sectionThreeContent">
+                        
                         <!-- <li>JUN Service Due Print out <a href="https://github.com/1024Digital/ico128fsc/blob/933b1b2f5cf276f85b1dc7d732dc3a43bbce3797/I%20Co%20128%20Jun%20Work%20Plan.pdf" target="_blank">Jun Service Work Plan</a></li> -->
 
 
@@ -119,15 +117,15 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <h3>Distro</h3>
-                        <ul>
-                            <li>Admin Task </li>
+                        <h3 id="sectionFour">Distro</h3>
+                        <ul id="sectionFourContent">
+                            
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <h3>Mess</h3>
-                        <ul>
-                            <li>Admin Task</li>
+                        <h3 id="sectionFive">Mess</h3>
+                        <ul id="sectionFiveContent">
+                            
 
                         </ul>
                     </div>
@@ -202,7 +200,7 @@
     </section>
     <section id="barracks">
         <div class="container-fluid">
-            <h1>Barracks Assignments June</h1>
+            <h1>Barracks Assignments Nov</h1>
             <div class="drill">
                 <table class="table-responsive table-bordered">
                     <thead>
@@ -213,24 +211,24 @@
                         </tr>
                     </thead>
                     <tr>
-                        <td>13-47</td>
+                        <td>TBD</td>
                         <td>BN HQ</td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>TA B-07</td>
+                        <td>TBD</td>
                         <td>BN Aide Station</td>
                         <td> </td>
 
                     </tr>
                     <tr>
-                        <td>13-122/13-165</td>
+                        <td>13-26/13-27</td>
                         <td>Dining Facility</td>
                         <td></td>
 
                     </tr>
                     <tr>
-                        <td>13-21</td>
+                        <td>13-24</td>
                         <td>Dining Facility</td>
                         <td>Refrigeration Only</td>
 
@@ -242,33 +240,33 @@
 
                     </tr>
                     <tr>
-                        <td>13-143</td>
+                        <td>13-45</td>
                         <td>Female Barracks</td>
                         <td>Officers in Ldrs rooms</td>
 
                     </tr>
                     <tr>
-                        <td>13-112</td>
-                        <td>I Co Admin/Supply</td>
+                        <td>13-52E</td>
+                        <td>I Co Supply</td>
                         <td></td>
 
                     </tr>
                     <tr>
-                        <td>13-140</td>
+                        <td>13-48</td>
                         <td>I Co Male Barracks</td>
                         <td></td>
 
                     </tr>
                     <tr>
-                        <td>13-142</td>
-                        <td>SR NCO / Officer Barracks</td>
-                        <td>E-7 to 0-3 Only </td>
+                        <td>13-138</td>
+                        <td>I Co Admin</td>
+                        <td> </td>
 
                     </tr>
                     <tr>
                         <td>13-65</td>
                         <td>Maintenance Bays</td>
-                        <td></td>
+                        <td>Co-using with D 128 BSB</td>
                     </tr>
 
                     <!-- <tr>
@@ -408,7 +406,7 @@
 
     <!-- ------------------------Editable Sections--------------------------------   -->
     <section id="drill-schedule">
-        <h1>Drill Schedule FY 2023</h1>
+        <h1 id="drillScheduleFY">Drill Schedule FY 2023</h1>
         <div class="drill">
             <table class="schedule table-bordered">
 
@@ -419,76 +417,76 @@
                     <th>EVENT</th>
                 </tr>
                 <tr>
-                    <td>Oct 15-16, 2022</td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>Admin Task</td>
+                    <td id="oct">October 15-16 2022</td>
+                    <td id="octLoc">HS</td>
+                    <td id="octMuta">4</td>
+                    <td id="OctEvent">Admin Task</td>
                 </tr>
                 <tr>
-                    <td>Nov 4-6, 2022</td>
-                    <td>FTIG</td>
-                    <td>6</td>
-                    <td>Admin Task</td>
+                    <td id="nov">Nov 4-6, 2022</td>
+                    <td id="novLoc">FTIG</td>
+                    <td id="novMuta">6</td>
+                    <td id="novEvent">Admin Task</td>
                 </tr>
                 <tr>
-                    <td>Dec 3-4, 2022 </td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>VBS</td>
+                    <td id="dec">Dec 3-4, 2022 </td>
+                    <td id="decLoc">HS</td>
+                    <td id="decMuta">4</td>
+                    <td id="decEvent">VBS</td>
                 </tr>
                 <tr>
-                    <td>Jan 28-29, 2023</td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>VBS</td>
+                    <td id="jan">Jan 28-29, 2023</td>
+                    <td id="janLoc">HS</td>
+                    <td id="janMuta">4</td>
+                    <td id="janEvent">VBS</td>
                 </tr>
                 <tr>
-                    <td>Feb 25-26, 2023 </td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>VCOT</td>
+                    <td id="feb">Feb 25-26, 2023 </td>
+                    <td id="febLoc">HS</td>
+                    <td id="febMuta">4</td>
+                    <td id="febEvent">VCOT</td>
                 </tr>
                 <tr>
-                    <td>Mar 11-12, 2023</td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>VCOT</td>
+                    <td id="mar">Mar 11-12, 2023</td>
+                    <td id="marLoc">HS</td>
+                    <td id="marMuta">4</td>
+                    <td id="marEvent">VCOT</td>
                 </tr>
                 <tr>
-                    <td>Apr 14-16, 2023</td>
-                    <td>HS/FTIG ?</td>
-                    <td>8</td>
-                    <td>VCOT</td>
+                    <td id="apr">Apr 14-16, 2023</td>
+                    <td id="aprLoc">HS/FTIG ?</td>
+                    <td id="aprMuta">8</td>
+                    <td id="aprEvent">VCOT</td>
                 </tr>
                 <tr>
-                    <td>May 19-21, 2023</td>
-                    <td>FTIG</td>
-                    <td>8</td>
-                    <td>Drvr Trng Day/ Night</td>
+                    <td id="may">May 19-21, 2023</td>
+                    <td id="mayloc">FTIG</td>
+                    <td id="mayMuta">8</td>
+                    <td id="mayEvent">Drvr Trng Day/ Night</td>
                 </tr>
                 <tr>
-                    <td>Jun 01-15, 2023</td>
-                    <td>FTIG</td>
-                    <td>AT</td>
-                    <td>Annual Training</td>
+                    <td id="jun">Jun 01-15, 2023</td>
+                    <td id="junLoc">FTIG</td>
+                    <td id="junMuta">AT</td>
+                    <td id="junEvent">Annual Training</td>
                 </tr>
                 <tr>
-                    <td>Jul 15-16, 2023</td>
-                    <td>HS</td>
-                    <td>4</td>
-                    <td>VCOT</td>
+                    <td id="jul">Jul 15-16, 2023</td>
+                    <td id="julLoc">HS</td>
+                    <td id="julMuta">4</td>
+                    <td id="julEvent">VCOT</td>
                 </tr>
                 <tr>
-                    <td>Aug 2023</td>
-                    <td></td>
-                    <td></td>
-                    <td>No Drill</td>
+                    <td d="aug">Aug 2023</td>
+                    <td id="augLoc"></td>
+                    <td id="augMuta"></td>
+                    <td id="augEvent">No Drill</td>
                 </tr>
                 <tr>
-                    <td>Sept 15-17, 2023</td>
-                    <td>HS</td>
-                    <td>6</td>
-                    <td>VCOT</td>
+                    <td id="sept">Sept 15-17, 2023</td>
+                    <td id="septLoc">HS</td>
+                    <td id="septMuta">6</td>
+                    <td id="septEvent">VCOT</td>
                 </tr>
 
             </table>
