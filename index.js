@@ -1,51 +1,51 @@
-alert('Reminder: 4-6 November 2022');
+alert('Happy Thanksgiving <br> Reminder: 3-4 December 2022');
 
 // ------------------------------Editable Area ------------------------------------------
 
 
 // -----------Report Time Notes----------------
 
-let reporttimenote ="Report Time: 0700";
+let reporttimenote ="Report Time: TBD";
 
 // -----------Current drill Notes----------------
-var currentDrillNote ="The following is information for this upcoming drill: 4-6 November 2022";
+var currentDrillNote ="The following is information for this upcoming drill: 3-4 December 2022";
 
 // -----------Next drill Notes----------------
-var nextDrillNote ="Drill next month is on: December 3-4 2022";
+var nextDrillNote ="Drill next month is on: January 28-29 2022";
 
 
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>ACFT will be schedulesd for 0500 5 Nov location is TBD</li><li>The following Soldier need to see SFC Esbensen at 0830 5 Nov 2022 in the Admin Room: SGT Garcia, SGT Hokien, SPC Baruelo, SPC Garlinski</li> <li>Safety Stand down</li>";
+let sectionOneContentnote ="<li>Annual briefings <li>Unit Holiday Meal (POT Luck). <li>Each Section was designated to bring some items. <li>Officers designated to bring Desserts. <li> Chinese Auction for Holiday no ticket Purchase will be necessary. <li> Ugly Sweater Contest <li> Rules & informaton will be posted in the site at a later time. ";
 
 
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>Need to See SPC Gralinski <li>Sensitive Item Inventory SGT Mumford <li>CCDF Issue : Kellam, Higgins, Ford, Henderson</li>";
+let sectionTwoContentnote ="<li>Designated Snacks & Appetizers";
 
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="<li>Stay behind to conduct services on HHC equipment: Mumford, Walsh, Billings, Christison, Kille <li>The rest of the Section will help support PHA & range operations </li> ";
+let sectionThreeContentnote ="<li>Designated Main Dishes";
 
 
 // -----------Distro Section (4)Notes (use <li> before every sentence to bullet it)----------------
 
 let sectionFourHeading ="Distro";
 
-let sectionFourContentnote ="<li>Ammo Support</li>";
+let sectionFourContentnote ="<li>Designated Snacks & Appetizers</li>";
 
 // -----------Mess Section (5) Notes (use <li> before every sentence to bullet it)----------------
 
 
 let sectionFiveHeading ="Mess";
 
-let sectionFiveContentnote ="<li>IDT Support </li>";
+let sectionFiveContentnote ="<li>Designated Drinks </li>";
 
 
-// -----------Drill Schedule ---------------->
+// -----------Drill Schedule (In Testing Phase)  ---------------->
 
 let drillScheduleFYHeader="Drill Schedule FY 2023";
 
