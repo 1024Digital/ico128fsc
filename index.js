@@ -1,4 +1,4 @@
-alert('Happy Thanksgiving <br> Reminder: 3-4 December 2022');
+alert('Happy Thanksgiving --- Reminder: 3-4 December 2022');
 
 // ------------------------------Editable Area ------------------------------------------
 
