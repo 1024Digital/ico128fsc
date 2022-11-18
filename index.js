@@ -1,4 +1,11 @@
-alert('Happy Thanksgiving --- Reminder: 3-4 December 2022');
+// -------------------Alert Message---------------------------------------------
+
+let message ="Happy Thanksgiving";
+let message2 = 'Reminder: 4-6 November 2022';
+
+alert(message);
+
+
 
 // ------------------------------Editable Area ------------------------------------------
 
@@ -11,41 +18,83 @@ let reporttimenote ="Report Time: TBD";
 var currentDrillNote ="The following is information for this upcoming drill: 3-4 December 2022";
 
 // -----------Next drill Notes----------------
-var nextDrillNote ="Drill next month is on: January 28-29 2022";
+var nextDrillNote ="Drill next month is on: January 28-29 2023";
+
+// --------------Count Down Timer Javascript-------------------
+
+var countDown = new Date ("December 3, 2022 07:00:00").getTime();
+
+
+
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDown - now;
+
+    var days = Math.floor(distance/(1000*60*60*24));
+    var hours = Math.floor((distance %(1000*60*60*24))/(1000*60*60));
+    var minutes = Math.floor ((distance % (1000*60*60))/ (1000*60));
+
+    var seconds = Math.floor((distance % (1000*60))/1000);
+
+    document.getElementById("drillCountDown").innerText= days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    // switched innerHTML to innerText to test out Safari Timer
+
+    if (distance < 0){
+        clearInterval(x);
+        document.getElementById("drillCountDown").innerHTML="Drill In Progress";
+    }
+
+},1000);
+
+// --------------Count Down Timer Javascript-------------------
+
+
 
 
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>Annual briefings <li>Unit Holiday Meal (POT Luck). <li>Each Section was designated to bring some items. <li>Officers designated to bring Desserts. <li> Chinese Auction for Holiday no ticket Purchase will be necessary. <li> Ugly Sweater Contest <li> Rules & informaton will be posted in the site at a later time. ";
+let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li>";
+
+
+
+
 
 
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>Designated Snacks & Appetizers";
+let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers";
+
+
+
 
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="<li>Designated Main Dishes";
+let sectionThreeContentnote ="<li>Assigned Main Dishes ";
+
+
 
 
 // -----------Distro Section (4)Notes (use <li> before every sentence to bullet it)----------------
 
 let sectionFourHeading ="Distro";
 
-let sectionFourContentnote ="<li>Designated Snacks & Appetizers</li>";
+let sectionFourContentnote ="<li>Assigned Snacks & Appetizers </li>";
+
+
+
 
 // -----------Mess Section (5) Notes (use <li> before every sentence to bullet it)----------------
 
 
 let sectionFiveHeading ="Mess";
 
-let sectionFiveContentnote ="<li>Designated Drinks </li>";
+let sectionFiveContentnote ="<li>Assigned Drinks</li>";
 
 
-// -----------Drill Schedule (In Testing Phase)  ---------------->
+// -----------Drill Schedule ---------------->
 
 let drillScheduleFYHeader="Drill Schedule FY 2023";
 

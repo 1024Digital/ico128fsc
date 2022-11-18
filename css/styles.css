@@ -129,9 +129,42 @@ section {
 
 /* ---------------------Drill Notes--------------------------------- */
 
-.nextDrill {
+.drillTimer {
+    padding-bottom: 0;
+}
+
+.drillTimer, .drillLetter, .nextDrill {
     padding-top: 0;
+}
+
+.drillLetter{
     padding-bottom: 2rem;
+}
+
+
+
+/* -------------------------Holiday Events ------------------------------- */
+
+.sweater{
+    margin-left: 20%;
+}
+
+.basketcontainer{
+    text-align:justify;
+    padding-left:15%;
+}
+
+.basketieimg{
+    padding-left: 5%;
+    padding-top: 1rem;
+}
+
+.basketieimg img{
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
 }
 
 
