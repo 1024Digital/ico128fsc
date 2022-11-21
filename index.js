@@ -72,7 +72,7 @@ let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers";
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="<li>Assigned Main Dishes ";
+let sectionThreeContentnote ="<li>Assigned Main Dishes <li>Dishes so far: <li> Belvis - Baked Ziti <li>Kille - Mac & Cheese <li> Page - Chicken Casserole ";
 
 
 
