@@ -12,7 +12,7 @@ alert(message);
 
 // -----------Report Time Notes----------------
 
-let reporttimenote ="Report Time: TBD";
+let reporttimenote ="Report Time: 0800";
 
 // -----------Current drill Notes----------------
 var currentDrillNote ="The following is information for this upcoming drill: 3-4 December 2022";
@@ -22,7 +22,7 @@ var nextDrillNote ="Drill next month is on: January 28-29 2023";
 
 // --------------Count Down Timer Javascript-------------------
 
-var countDown = new Date ("December 3, 2022 07:00:00").getTime();
+var countDown = new Date ("December 3, 2022 08:00:00").getTime();
 
 
 
@@ -54,7 +54,7 @@ var x = setInterval(function() {
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li>";
+let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li> <li>SFC Esbensen needs to see SPC Baruelo at 0900 hrs and SPC Garlinski at 1000 hrs <li>We will have VBS ( Virtual Battle System) on Saturday and Sunday.Break your sections put into crews of 4. <li>Lets SFC Esbensen know who in the UNit does not have a Govt Travel Card so we can start the process. <li> FOR ALL SOLDIERS to see if your scheduled for a course or military school click on the drill letter link above.  ";
 
 
 
@@ -64,7 +64,7 @@ let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT 
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers";
+let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers <li> Gear from SPC Gralinski and SPC Baruelo";
 
 
 
@@ -92,6 +92,11 @@ let sectionFourContentnote ="<li>Assigned Snacks & Appetizers </li>";
 let sectionFiveHeading ="Mess";
 
 let sectionFiveContentnote ="<li>Assigned Drinks</li>";
+
+// -----------CDR Intent Section (6) Notes (use <li> before every sentence to bullet it)----------------
+
+let sectionSixHeading ="CDR Intent";
+let sectionSixContentnote ="<li>This upcoming Drill lets have some fun!.This IDT will be our annual POT Luck, CHristmas Event & Ugly Sweater Contest!!! <p>With prizes to be had! <p> Let's all laugh & get into the Holiday spirit together as a family <p> I would like for you to take time to appreciate each of your fellow Soldiers that work hard and stand next to you in this Unit. I would also like you to remember we are family and we will succeed together as one. Please let your leadership know if there is anything and I mean anything that you may need during this coming season. Iwish a joyful Holiday and Happy New Year to all of you and your families. <p>LI Pavese";
 
 
 // -----------Drill Schedule ---------------->
@@ -184,12 +189,14 @@ document.getElementById("sectionTwo").innerHTML = sectionTwoHeading;
 document.getElementById("sectionThree").innerHTML = sectionThreeHeading;
 document.getElementById("sectionFour").innerHTML = sectionFourHeading;
 document.getElementById("sectionFive").innerHTML = sectionFiveHeading;
+document.getElementById("sectionSix").innerHTML = sectionSixHeading;
 
 document.getElementById("sectionOneContent").innerHTML = sectionOneContentnote;
 document.getElementById("sectionTwoContent").innerHTML = sectionTwoContentnote;
 document.getElementById("sectionThreeContent").innerHTML = sectionThreeContentnote;
 document.getElementById("sectionFourContent").innerHTML = sectionFourContentnote;
 document.getElementById("sectionFiveContent").innerHTML = sectionFiveContentnote;
+document.getElementById("sectionSixContent").innerHTML = sectionSixContentnote;
 
 
 // <-------------------Drill Schedule write ( In Beta )------------------>
