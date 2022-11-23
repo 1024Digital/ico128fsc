@@ -54,7 +54,7 @@ var x = setInterval(function() {
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li> <li>SFC Esbensen needs to see SPC Baruelo at 0900 hrs and SPC Garlinski at 1000 hrs <li>We will have VBS ( Virtual Battle System) on Saturday and Sunday.Break your sections put into crews of 4. <li>Lets SFC Esbensen know who in the UNit does not have a Govt Travel Card so we can start the process. <li> FOR ALL SOLDIERS to see if your scheduled for a course or military school click on the drill letter link above.  ";
+let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li> <li>SFC Esbensen needs to see SPC Baruelo at 0900 hrs and SPC Garlinski at 1000 hrs <li>We will have VBS ( Virtual Battle System) on Saturday and Sunday.Break your sections put into crews of 4. <li>Lets SFC Esbensen know who in the UNit does not have a Govt Travel Card so we can start the process. <li> FOR ALL SOLDIERS to see if your scheduled for a course or military school click on the drill letter link above.";
 
 
 
@@ -96,7 +96,7 @@ let sectionFiveContentnote ="<li>Assigned Drinks</li>";
 // -----------CDR Intent Section (6) Notes (use <li> before every sentence to bullet it)----------------
 
 let sectionSixHeading ="CDR Intent";
-let sectionSixContentnote ="<li>This upcoming Drill lets have some fun!.This IDT will be our annual POT Luck, CHristmas Event & Ugly Sweater Contest!!! <p>With prizes to be had! <p> Let's all laugh & get into the Holiday spirit together as a family <p> I would like for you to take time to appreciate each of your fellow Soldiers that work hard and stand next to you in this Unit. I would also like you to remember we are family and we will succeed together as one. Please let your leadership know if there is anything and I mean anything that you may need during this coming season. Iwish a joyful Holiday and Happy New Year to all of you and your families. <p>LI Pavese";
+let sectionSixContentnote ="<li>This upcoming Drill lets have some fun!.This IDT will be our annual POT Luck, Christmas Event & Ugly Sweater Contest!!! <li>With prizes to be had! Let's all laugh & get into the Holiday spirit together as a family. I would like for you to take time to appreciate each of your fellow Soldiers that work hard and stand next to you in this Unit. I would also like you to remember we are family and we will succeed together as one. Please let your leadership know if there is anything and I mean anything that you may need during this coming season. Iwish a joyful Holiday and Happy New Year to all of you and your families. <li>LT Pavese";
 
 
 // -----------Drill Schedule ---------------->
