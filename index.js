@@ -1,9 +1,9 @@
 // -------------------Alert Message---------------------------------------------
 
 let message ="Happy Thanksgiving";
-let message2 = 'Reminder: 4-6 November 2022';
+let message2 = 'Reminder: 3-4 December 2022';
 
-alert(message);
+alert(message2);
 
 
 
@@ -54,7 +54,7 @@ var x = setInterval(function() {
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK).</li><li>Ugly Sweater Contest (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li> <li>SFC Esbensen needs to see SPC Baruelo at 0900 hrs and SPC Garlinski at 1000 hrs <li>We will have VBS ( Virtual Battle System) on Saturday and Sunday.Break your sections put into crews of 4. <li>Lets SFC Esbensen know who in the UNit does not have a Govt Travel Card so we can start the process. <li> FOR ALL SOLDIERS to see if your scheduled for a course or military school click on the drill letter link above.";
+let sectionOneContentnote ="<li>Uniform is OCP, bring civilians & Ugly Sweater for later<li>Annual Briefings</li><li>Unit Holiday Meal (POT LUCK) at noon.</li><li>Ugly Sweater Contest at 1130 (rules below) </li><li>Chinese Auction (rules below)</li><li>Each Section will be assigned a type of meal to bring for the Holiday Meal</li><li>Officers are assigned Desserts</li> <li>SFC Esbensen needs to see SPC Baruelo at 0900 hrs and SPC Garlinski at 1000 hrs <li>We will have VBS (Virtual Battle System) on Saturday and Sunday.Break your sections put into crews of 4. <li>All Soldiers bring your Govt Travel Card to Drill, let SFC Esbensen know who in the Unit does not have a Govt Travel Card so we can start the process. <li> FOR ALL SOLDIERS to see if your scheduled for a course or military school click on the drill letter link above.";
 
 
 
@@ -64,7 +64,7 @@ let sectionOneContentnote ="<li>Annual Briefings</li><li>Unit Holiday Meal (POT 
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers <li> Gear from SPC Gralinski and SPC Baruelo";
+let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers <li>SPC Gralinski and SPC Baruelo see SSG Utter";
 
 
 
@@ -72,7 +72,7 @@ let sectionTwoContentnote ="<li>Assigned Snacks & Appetizers <li> Gear from SPC 
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="<li>Assigned Main Dishes <li>Dishes so far: <li> Belvis - Baked Ziti <li>Kille - Mac & Cheese <li>Page - Chicken Casserole <li>Crisci - Meat dish <li> Garlinski - Pulled Pork ";
+let sectionThreeContentnote ="<li>Annual NCOMP I-41 <li>Parts to hang ;vehicles will be identified during IDT<li>Assigned Main Dishes <li>Dishes so far: <li>Belvis - Baked Ziti <li>Kille - Mac & Cheese <li>Page - Chicken Casserole <li>Crisci - Meat dish <li>Garlinski - Pulled Pork <li> Tolentino - Spicy Shrimp <li>Baruelo - Lumpia <li> Axle - Ziti <li>Hoopengarner- Fried Chicken <li>Bonk - Chicken Rice & Vegetables <li>Smith - Chocolate Chip Cookies  ";
 
 
 
