@@ -1,9 +1,9 @@
 // -------------------Alert Message---------------------------------------------
 
-let message ="Happy Thanksgiving";
-let message2 = 'Reminder: 3-4 December 2022';
+let message ="Happy Holiday's & Happy New Year";
+let message2 = 'Reminder: 28-29 January 2023';
 
-alert(message2);
+alert(message);
 
 
 
@@ -15,14 +15,14 @@ alert(message2);
 let reporttimenote ="Report Time: 0800";
 
 // -----------Current drill Notes----------------
-var currentDrillNote ="The following is information for this upcoming drill: 3-4 December 2022";
+var currentDrillNote ="The following is information for this upcoming drill: 28-29 January 2023";
 
 // -----------Next drill Notes----------------
-var nextDrillNote ="Drill next month is on: January 28-29 2023";
+var nextDrillNote ="Drill next month is on: ";
 
 // --------------Count Down Timer Javascript-------------------
 
-var countDown = new Date ("December 3, 2022 08:00:00").getTime();
+var countDown = new Date ("January 28, 2023 08:00:00").getTime();
 
 
 
