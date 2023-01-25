@@ -64,7 +64,7 @@ let sectionOneContentnote ="<li>VCOT Training <li>Commo Training <li> Check Dril
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>SSG Cron new SUpply SGT";
+let sectionTwoContentnote ="<li>SSG Cron new Supply SGT";
 
 
 
@@ -72,7 +72,7 @@ let sectionTwoContentnote ="<li>SSG Cron new SUpply SGT";
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="TDB ";
+let sectionThreeContentnote ="Maint repairs & services <li>Inventories <li>Maint training ";
 
 
 
