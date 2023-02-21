@@ -1,7 +1,7 @@
 // -------------------Alert Message---------------------------------------------
 
 let message ="Happy Holiday's & Happy New Year";
-let message2 = 'Reminder: 28-29 January 2023';
+let message2 = 'Reminder: 25-26 February 2023';
 
 alert(message2);
 
@@ -12,17 +12,17 @@ alert(message2);
 
 // -----------Report Time Notes----------------
 
-let reporttimenote ="Report Time: 0800";
+let reporttimenote ="Report Time: 0730";
 
 // -----------Current drill Notes----------------
 var currentDrillNote ="The following is information for this upcoming drill: 28-29 January 2023";
 
 // -----------Next drill Notes----------------
-var nextDrillNote ="Drill next month is on: 28-29 Feb  ";
+var nextDrillNote ="Drill next month is on: 11-12 March  ";
 
 // --------------Count Down Timer Javascript-------------------
 
-var countDown = new Date ("February 28, 2023 08:00:00").getTime();
+var countDown = new Date ("February 28, 2023 07:30:00").getTime();
 
 
 
@@ -54,7 +54,7 @@ var x = setInterval(function() {
 // -----------Section Admin (1) Notes (use <li> before every sentence to bullet it) ----------------
 let sectionOneHeading ="Admin";
 
-let sectionOneContentnote ="<li>VCOT Training <li>Commo Training <li> Check Drill letter for school dates";
+let sectionOneContentnote ="<li>PHA, PHA, PHA Lets get it done! <li>Evals will be completed this weekend. We will be staying as late as we have to on Sunday to make sure they are all done!";
 
 
 
@@ -64,7 +64,7 @@ let sectionOneContentnote ="<li>VCOT Training <li>Commo Training <li> Check Dril
 // -----------Supply Section (2) Notes (use <li> before every sentence to bullet it)----------------
 let sectionTwoHeading ="Supply";
 
-let sectionTwoContentnote ="<li>SSG Cron new Supply SGT";
+let sectionTwoContentnote ="<li>complete the Cyclic and sensitive item inventory for the month.";
 
 
 
@@ -72,7 +72,7 @@ let sectionTwoContentnote ="<li>SSG Cron new Supply SGT";
 // -----------Maintenance (3) Notes (use <li> before every sentence to bullet it)----------------
 let sectionThreeHeading ="Maintenance";
 
-let sectionThreeContentnote ="Maint repairs & services <li>Inventories <li>Maint training ";
+let sectionThreeContentnote ="TBD";
 
 
 
@@ -96,7 +96,7 @@ let sectionFiveContentnote ="TBD";
 // -----------CDR Intent Section (6) Notes (use <li> before every sentence to bullet it)----------------
 
 let sectionSixHeading ="CDR Intent";
-let sectionSixContentnote ="<li>This month’s IDT main focus will be conducting COMMO Training, VCOFT training, along with business as usual with maintenance, drivers training, and admin tasks. Let’s try and stay focused and get this week- end done and continue to train to standard. If you need anything prior to drill, please reach out to your section leaders. And of course, if you need anything directly from me, feel free to contact me anytime. My phone is always on and my door is always open. <li>LT Pavese";
+let sectionSixContentnote ="<li>This month’s IDT main focus is our PHA, along with business as usual with maintenance, drivers training, and any admin tasks.Everyone should have received their LHI email for the PHA's online portion that needs to be completed prior to drill. The online portion does not take long to do, so please complete it prior to the PHA. This way we won’t have to waste any time using their computers and hopefully get through the process at a reasonable rate. Let’s try and stay focused and get this weekend done and continue to train to standard. If you need anything prior to drill, please reach out to your section leaders. And of course, if you need anything directly from me, feel free to contact me anytime. My phone is always on, and my door is always open. Please be safe and careful! I will see you all at drill and thank you for all that you do for the unit! <li>LT Pavese";
 
 
 // -----------Drill Schedule ---------------->
